@@ -1,0 +1,155 @@
+html {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} 
+/* font size to 100% all the time */
+*{-moz-box-sizing: border-box; -webkit-box-sizing:border-box; box-sizing: border-box;}
+/* margem dentro e fora */
+h1{color: red;}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* grid rules */
+.row{clear: both;}
+.limited {
+    max-width: 1140px; 
+    margin: auto;
+}
+
+.column{float: left;padding: 0 2vw; margin: 0 0 .75rem 0;} /*margem em ambos os lados  */
+.small-12 {width: 100%;}
+.small-6{width:50%;}
+
+
+
+  /* header rules */
+header {
+    background-color: #9b87b8;
+}
+header img {
+    float: left; 
+    height: 85px;
+    padding-right: 10px; 
+    
+}
+header h1, header h2 {
+    margin: 0;
+    color: #fff; 
+    font-weight: 300;
+    font-style: italic;
+}
+header h1 { 
+	padding: .5rem 0 0 0; 
+	font-size: 1.95rem;
+}
+header h2{
+	padding: .2rem 0 0 0; 
+	font-size:1.05rem;    
+}
+
+/* navigation rules */
+button#hamburgerBtn { 
+    background: none;
+    border:none;
+    color: #fff;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
+}
+nav {background-color: #23cfa7;}
+nav ul{margin:0; padding: 0;}
+nav ul li {list-style-type: none;}
+    
+nav a {
+        display: block;
+        padding: .8rem 0; 
+        color: #eee;
+        text-align: center;
+        text-decoration: none;
+    }
+nav li.active {background-color: rgba(0,0,0,0.5);} /*Deixa escuro a pagina q esta aberta */
+nav a:hover {background-color: rgba(0,0,0,0.2);} /*qndo passar o mouse por cima vai escurecer */
+nav ul.open {display: block;} /* Cria o navegador*/
+nav ul {display: none;} /* Esconde o navegador*/
+
+
+
+main img {
+    width: 100%;
+    height: auto
+}   
+
+main h1, main h3 {  
+    color: #9b87b8; /*mesma cor do footer e header para as frases no main */
+    font-style: italic;/*mesma fonte*/
+    margin: .5rem 0 .1rem 0;
+    
+}
+
+main h1 {font-size: 2rem;}
+main h3 {font-size: 1.2rem;}
+main p{
+    font-size: 1.2rem;
+    margin: 0 0 .3rem 0; /*margem on top, on the right, on the bottom, on the left*/
+}
+
+
+/*para as outras paginas*/
+main h1{font-size: 2rem;}
+main h3{font-size: 1.2rem;}
+
+main p {
+    font-size: 1.2rem;
+    margin: 0 0 .3rem 0;
+}
+
+
+
+
+.labeled {position: relative;} /*rules para o h6 e para o paragrafo realtivo ao labeled. sem essa parte ficara relativo a pagina*/
+.labeled h6, .labeled p { /*rules para o h6 e para o paragrafo*/
+    position: absolute;
+    background-color: rgba(255,255,255,.7);
+    margin: 0;
+    width: 100%;
+    padding: .3rem 1rem;   
+}
+.labeled h6 { /*rules para o h6 */
+    top: 0; /*para ficar no topo*/
+    font-size: 2rem;
+    font-weight: 300;
+}
+.labeled p { /*rules para o paragrafo*/
+    bottom: 0; /*para ficar embaixo*/
+    font-weight: 700;
+    color: #b00;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #9b87b8;
+    font-size: 1.2rem;
+
+}
+footer h2 {
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 1rem 0.3rem 0;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+

@@ -1,0 +1,20 @@
+@media only screen and (min-width: 768px) {
+
+    h1{color: green;}
+
+
+    header h1 {font-size: 2.85rem;}
+    header h2 {font-size: 1.5rem; }
+    header img {height: 100px;}
+
+    /* GRID */
+    .medium-6 {width: 50%;}
+    .medius-4{width:33.33333%;}
+
+    nav button {display: none;}  /* Esconde o nav button */
+    nav ul {display: block;} /* força a navegacao a reaparecer */
+    nav li {width: 25%; float: left;} /* muda a config pra 25% */
+
+
+
+}

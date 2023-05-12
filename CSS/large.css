@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1140px) {
+
+    h1{color: yellow;}
+
+    /* GRID */
+    .large-3 {width: 25%;}
+
+    nav ul {margin-left: 2vw;} /* A margen a esquerda fica alinhada */
+    nav li {width:auto;}/* autmaticamente arruma o tamanho das abas de pesquisa  */
+    nav a {padding: .7rem 1rem;} /* muda a distancia das abas de pequisa */
+
+
+
+}
